@@ -35,12 +35,7 @@ function validarFormulario() {
             $("#direccion").change(function () {
                 $("#error-direccion").fadeOut();
             });
-        } else if (($("#cod-postal").val() == "") || ($("#cod-postal").val().length != 4)) {
-            e.preventDefault();
-            $("#error-codigopostal").fadeIn();
-            $("#cod-postal").change(function () {
-                $("#error-codigopostal").fadeOut();
-            });
+        
         } else if ($("#provincia").val() == "") {
             e.preventDefault();
             $("#error-provincia").fadeIn();
@@ -88,7 +83,6 @@ function validarFormulario() {
                 datosCompra.push($("#email").val());
                 datosCompra.push($("#telefono").val());
                 datosCompra.push($("#direccion").val());
-                datosCompra.push($("#cod-postal").val());
                 datosCompra.push($("#provincia").val());
                 datosCompra.push($("#localidad").val());
                 datosCompra.push($("#metodo-envio").val());
@@ -126,7 +120,6 @@ function validarFormulario() {
             datosCompra.push($("#email").val());
             datosCompra.push($("#telefono").val());
             datosCompra.push($("#direccion").val());
-            datosCompra.push($("#cod-postal").val());
             datosCompra.push($("#provincia").val());
             datosCompra.push($("#localidad").val());
             datosCompra.push($("#metodo-envio").val());
@@ -159,20 +152,20 @@ function validarFormulario() {
 function calcularEnvio() {
     let envio;
     let metodoEnvio = $("#metodo-envio").val();
-    if (metodoEnvio == "caba") {
-        envio = 800;
+    if (metodoEnvio == "Santiago") {
+        envio = 4000;
         $("#envio").text(envio);
         $("#total").text(calcularTotalCompra(envio));
         $("#error-envio").hide();
     };
-    if (metodoEnvio == "gba") {
-        envio = 1100;
+    if (metodoEnvio == "Regiones") {
+        envio = 8000;
         $("#envio").text(envio);
         $("#total").text(calcularTotalCompra(envio));
         $("#error-envio").hide();
     };
-    if (metodoEnvio == "interior") {
-        envio = 2500;
+    if (metodoEnvio == "Sucursal de operador logistico") {
+        envio = 5000;
         $("#envio").text(envio);
         $("#total").text(calcularTotalCompra(envio));
         $("#error-envio").hide();
