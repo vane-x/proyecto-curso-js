@@ -1,0 +1,109 @@
+[{
+    "id": "1",
+    "tipo": "Accesorio",
+    "nombre": "Dije Galaxia Zodiacal",
+    "precio": "5500",
+    "foto": "../media/products/dijeuniversozodiacal.jpeg"
+}, {
+    "id": "2",
+    "tipo": "Accesorio",
+    "nombre": "Bandeja Luna",
+    "precio": "8000",
+    "foto": "../media/products/bandejaluna.jpeg"
+}, {
+    "id": "3",
+    "tipo": "Accesorio",
+    "nombre": "Astronauta",
+    "precio": "8500",
+    "foto": "../media/products/astronautas.jpeg"
+}, {
+    "id": "4",
+    "tipo": "Accesorio",
+    "nombre": "Buhos",
+    "precio": "12000",
+    "foto": "../media/products/buhosveh.jpeg"
+}, {
+    "id": "5",
+    "tipo": "Accesorio",
+    "nombre": "Llavero Corazon",
+    "precio": "3500",
+    "foto": "../media/products/llaverocorazon.jpeg"
+}, {
+    "id": "6",
+    "tipo": "Accesorio",
+    "nombre": "Llavero Patitas",
+    "precio": "6000",
+    "foto": "../media/products/llaveropatitas.jpeg"
+}, {
+    "id": 7,
+    "tipo": "Accesorio",
+    "nombre": "llavero zodiacal",
+    "precio": "4500",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "8",
+    "tipo": "Accesorio",
+    "nombre": "dijes",
+    "precio": "3800",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "9",
+    "tipo": "Accesorio",
+    "nombre": "Marca paginas Sailor",
+    "precio": "4500",
+    "foto": "../media/products/marcapaginasailor.jpeg"
+}, {
+    "id": "10",
+    "tipo": "Accesorio",
+    "nombre": "Llavero memes",
+    "precio": "5000",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "11",
+    "tipo": "Accesorio",
+    "nombre": "Llaveros personalizados 5cms",
+    "precio": "5000",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "12",
+    "tipo": "Accesorio",
+    "nombre": "Llaveros personalizados 3cms",
+    "precio": "3800",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "13",
+    "tipo": "Accesorio",
+    "nombre": "Posavasos",
+    "precio": "5000",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "14",
+    "tipo": "Accesorio",
+    "nombre": "Encapsula tu recuerdo en un dije",
+    "precio": "12000",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "15",
+    "tipo": "Accesorio",
+    "nombre": "Posavelas",
+    "precio": "8500",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "16",
+    "tipo": "Accesorio",
+    "nombre": "Posavasos personalizados",
+    "precio": "6000",
+    "foto": "../media/products/proximamente.jpg"
+}, {
+    "id": "17",
+    "tipo": "Accesorio",
+    "nombre": "Manopla Corazon",
+    "precio": "8000",
+    "foto": "../media/products/manoplacorazon.jpeg"
+}, {
+    "id": "18",
+    "tipo": "Accesorio",
+    "nombre": "Manopla Gatitos",
+    "precio": "8000",
+    "foto": "../media/products/manoplagatito.jpeg"
+}]
